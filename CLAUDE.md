@@ -23,3 +23,9 @@ Static landing page for Mobile PreFab — a mobile MEP prefabrication service. W
 ## Deployment
 - Hosted on GitHub Pages, pushes to `main` deploy automatically
 - Domain: mobile-prefab.com
+- `CNAME` file is required in repo root for custom domain — do not delete it
+
+## Notes
+- Hero video was compressed from 13MB to ~2MB using ffmpeg (CRF 26, preset slow, no audio). Original was 20Mbps bitrate which was excessive for web.
+- Favicon uses `assets/favicon.png` (M icon); social media OG/Twitter images use `assets/mobile-prefab-logo.png` (full logo)
+- Solution cards: "Increase Installation Rates", "Smaller Crews, Less Overhead", "Expert Operator"
