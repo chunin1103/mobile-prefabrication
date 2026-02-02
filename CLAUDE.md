@@ -1,7 +1,7 @@
 # Mobile PreFab Landing Page
 
 ## Project Overview
-Static landing page for Mobile PreFab — a mobile MEP prefabrication service. Woman-owned business. Deployed via GitHub Pages to https://mobile-prefab.com.
+Static landing page for Mobile PreFab — a mobile MEP prefabrication service. Woman-owned business. Deployed via Netlify to https://mobile-prefab.com.
 
 ## Tech Stack
 - Single-page static site (`index.html`)
@@ -21,9 +21,8 @@ Static landing page for Mobile PreFab — a mobile MEP prefabrication service. W
 - Font: Inter
 
 ## Deployment
-- Hosted on GitHub Pages, pushes to `main` deploy automatically
+- Hosted on Netlify, pushes to `main` deploy automatically
 - Domain: mobile-prefab.com
-- `CNAME` file is required in repo root for custom domain — do not delete it
 
 ## Notes
 - Hero video was compressed from 13MB to ~2MB using ffmpeg (CRF 26, preset slow, no audio). Original was 20Mbps bitrate which was excessive for web.
